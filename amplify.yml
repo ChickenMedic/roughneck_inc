@@ -1,0 +1,14 @@
+# AWS Amplify Hosting: this is a static site with no build step. Serve the repo root as-is.
+version: 1
+frontend:
+  phases:
+    build:
+      commands: []
+  artifacts:
+    baseDirectory: /
+    files:
+      - index.html
+      - css/**/*
+      - js/**/*
+  cache:
+    paths: []
