@@ -1,0 +1,11 @@
+{
+  "name": "wildcat-ceo",
+  "version": "0.1.0",
+  "description": "Wildcat CEO - an oil & gas company management game for the browser",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "node test/smoke.mjs && node test/eratest.mjs && node test/geotest.mjs && node test/approachtest.mjs && node test/pooltest.mjs && node test/healthtest.mjs && node test/headless.mjs 42 30 && node test/foundtest.mjs"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,40 @@
+/* Wildcat CEO, 1952 edition: design tokens. Loaded before style.css. */
+:root {
+  /* paper and ink */
+  --paper: #efe4c8;      /* plat / form paper */
+  --paper2: #e6d7b3;     /* darker paper, folder interiors */
+  --paper3: #f7f0dd;     /* fresh sheet, cards */
+  --newsprint: #e9e1cd;
+  --manila: #dcc48f;
+  --manila2: #e8d5a5;
+  --ink: #2b2418;
+  --ink2: #5a4d38;
+  --muted: #7a6a50;
+  --line: #b9a67d;
+  --rule: rgba(43, 36, 24, 0.28);
+  /* accents */
+  --red: #a8322a;
+  --blue: #2f4f7f;
+  --green: #4b6b3a;
+  --gold: #b58a2f;
+  --purple: #6b4a7a;
+  --brass: #c9a447;
+  --brass2: #9d7b2a;
+  --felt: #2f4a2d;
+  --felt2: #1c2e1b;
+  /* legacy hooks used by existing markup (.good/.warn/.bar.amber, sparkline colours) */
+  --amber: var(--gold);
+  --amber2: #d3a63e;
+  --bg: var(--paper);
+  --bg2: var(--paper3);
+  --bg3: var(--paper2);
+  --text: var(--ink);
+  /* type */
+  --type: 'Special Elite', 'Courier Prime', 'Courier New', Courier, monospace;
+  --serif: 'Playfair Display', 'Bodoni MT', Didot, Georgia, 'Times New Roman', serif;
+  --hand: 'Caveat', 'Segoe Script', 'Bradley Hand', 'Comic Sans MS', cursive;
+  --fell: 'IM Fell English', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  --mono: var(--type);
+  --sans: var(--fell);
+  --radius: 3px;
+}
